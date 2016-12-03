@@ -13,7 +13,7 @@ Below you will find a task list of the requirements this app has to fulfil:
 - [ ] **Fix** any compile and crash **bugs**.
 - [ ] Currently, the list only displays the purpose of each spacewalk. The data also provides the date when it happened. **Display the date on each item.** We leave it up to you to decide how best to show it.
 - [ ] The spacewalk list is displayed in ascending order by date. **When the button in the bottom right is clicked the list should be displayed in descending order.** Clicking it again should reverse that - it should act as a toggle.
-- [ ] The app should **support orientation changes** without reloading the data.
+- [ ] The app should **support orientation changes** without reloading the data and without using android:configChanges.
 - [ ] **Add a separator** in between the list items.
 
 This is your opportunity to show us how you think and Android app should be architected, please make any changes you feel would benefit the app. 
