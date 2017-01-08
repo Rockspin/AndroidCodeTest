@@ -5,14 +5,24 @@
               android:layout_height="wrap_content"
               android:background="@android:drawable/list_selector_background"
               android:minHeight="50dp"
+              android:padding="5dp"
               android:orientation="vertical">
-
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:textSize="14sp"
+            android:padding="5dp"
+            android:textColor="@color/colorAccent"
+            android:background="@color/colorPrimary"
+            tools:text="Patent Name"/>
     <TextView
         android:id="@+id/tv_patent_name"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="start"
         android:textSize="14sp"
+        android:padding="5dp"
         tools:text="Patent Name"/>
-
 </LinearLayout>

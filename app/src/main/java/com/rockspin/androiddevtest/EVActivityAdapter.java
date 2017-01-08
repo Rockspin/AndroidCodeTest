@@ -7,8 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.rockspin.androiddevtest.R;
-
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -43,6 +42,9 @@ public class EVActivityAdapter extends RecyclerView.Adapter<EVActivityAdapter.Vi
         final CosmonautActivity cosmonautActivity = mCosmonautActivityList.get(position);
 
         holder.tvName.setText(cosmonautActivity.getPurpose());
+
+        SimpleDateFormat format = new SimpleDateFormat("dd MMM yyyy");
+        holder.tvDate.setText( format.format( cosmonautActivity.getDate() ) );
     }
 
     @Override
@@ -53,10 +55,12 @@ public class EVActivityAdapter extends RecyclerView.Adapter<EVActivityAdapter.Vi
     static class ViewHolder extends RecyclerView.ViewHolder {
 
         TextView tvName;
+        TextView tvDate;
 
         public ViewHolder(View itemView) {
             super(itemView);
             tvName = (TextView) itemView.findViewById(R.id.tv_patent_name);
+            tvDate = (TextView) itemView.findViewById(R.id.tv_date);
         }
     }
 }
