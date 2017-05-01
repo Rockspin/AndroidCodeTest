@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Rockspin Android Test</string>
     <string name="sort_by_date">Sort by Date</string>
+    <string name="fetch_data">Fetching data...</string>
+    <string name="no_net_connection">No Internet Connection!</string>
+    <string name="retry">Retry</string>
 </resources>
