@@ -20,6 +20,7 @@ This is your opportunity to show us how you think and Android app should be arch
 
 You may include 3rd party libraries, but please state your reason for using them. The project currently depends on Retrofit and GSON for setting up a quick networking layer. Previous knowledge of these libraries isn't a requirement but may help you while doing the test.
 
-# Optional stretch tasks:
+# Optional stretch tasks (in progressive order):
 - [ ] **Display a progress bar** while the items are initially fetched and animate the list when it loads. 
 - [ ] Whenever **sorting** is changed **animate** the transition
+- [ ] Introduce a [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) to `MainActivity` that handles the business logic and test it. 
