@@ -7,7 +7,7 @@
     tools:context="com.rockspin.androiddevtest.MainActivity">
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/recycler_view"
+        android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -15,7 +15,7 @@
         tools:listitem="@layout/list_item_ev"/>
 
     <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab_change_sorting"
+        android:id="@+id/fabChangeSorting"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
